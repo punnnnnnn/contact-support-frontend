@@ -1,0 +1,11 @@
+### GET tickets
+GET https://contact-support-production.up.railway.app/api/tickets
+
+### POST create ticket
+POST https://contact-support-production.up.railway.app/api/tickets
+Content-Type: application/json
+
+{
+  "title": "Test ticket from VSCode",
+  "description": "This ticket created using REST Client extension"
+}

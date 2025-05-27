@@ -1,4 +1,4 @@
-const API_URL = "https://contact-support-production.up.railway.app/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 // ดึง ticket ทั้งหมด
 export const getTickets = async () => {
